@@ -10,7 +10,7 @@
 ##라즈베리파이에서
 1. 라즈베리파이에 카메라를 연결합니다.
 2. 사진을 찍기위해 shell script를 만듭니다
-[]raspistill.sh참고]
+raspistill.sh참고
 3. crontab을 이용해 주기적으로 사진을 찍고
 scp로 django가 설치된 서버로 보냅니다. 사진은 보낸후 삭제됩니다.
 
