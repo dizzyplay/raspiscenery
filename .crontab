@@ -1,0 +1,1 @@
+*/5 * * * * /home/pi/djangotest/djangotest/static/camera/camera.sh >> /home/pi/log.txt 2>&1
