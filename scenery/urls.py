@@ -1,5 +1,8 @@
+from django.urls import path
+from . import views
 
-app_name ='scenery'
+app_name = 'scenery'
 
-urlpatterns =[
+urlpatterns = [
+    path('', views.main_view, name='main_view')
 ]
