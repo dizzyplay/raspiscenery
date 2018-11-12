@@ -13,8 +13,8 @@
 raspistill.sh참고
 3. crontab을 이용해 주기적으로 사진을 찍고
 scp로 django가 설치된 서버로 보냅니다. 사진은 보낸후 삭제됩니다.
+<crontab -e  로 .crontab내용을 등록>
 
-- crontab -e  로 .crontab내용을 등록
 ##Django 에서 
 1. db를 사용하지 않기 때문에 따로 migrate는 필요 없습니다.
 2. 찍힌 사진 파일은 /static/camera에 날짜시간별로 저장됩니다.
